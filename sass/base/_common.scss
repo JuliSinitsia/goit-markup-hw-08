@@ -1,0 +1,40 @@
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+    }
+    
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+    margin: 0;
+    }
+    
+    
+    ol,
+    ul{
+    margin: 0;
+    padding: 0;
+    }
+    
+    img {
+    display: block;
+    }
+    
+    .main-item,
+    .info,
+    .advantage,
+    .img-item,
+    .img-portfolio,
+    .address,
+    .our-service-btn,
+    .clients-item,
+    .seti-icons,
+    .join-link-list,
+    .modal-list {
+    list-style-type: none;
+    }
