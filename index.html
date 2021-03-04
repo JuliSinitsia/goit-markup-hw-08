@@ -13,7 +13,8 @@
     <header class="header">
       <div class="container">
       <nav class="navigation">
-        <a class="logo" href="/"><span class="word-web">Web</span>Studio</a>
+        <a class="logo" href="#"><span class="word-web">Web</span>Studio</a>
+        
         <ul class="main-nav">
          <li class="main-item">
             <a class="main-item-link current" href="#">Студия</a>
@@ -44,10 +45,55 @@
              </li>
         </ul>
       </section>
+      <button type="button" class="burger-btn" data-menu-button>
+          <svg class="burger-icon">
+          <use href="./images/Icons/sprite.svg#burger"></use>
+          </svg>
+        </button>    
+    </div>
+    <div class="mobile-menu" data-menu>
+      <button type="button" class="burger-close" data-menu-close>
+          <svg class="burger-close-icon">
+              <use href="./images/Icons/sprite.svg#close_burger"></use>
+              </svg>
+      </button>
+      <ul class="mobile-list">
+        <li class="mobile-list-item">
+            <a class="main-item-link current" href="#">Студия</a>
+        </li>
+        <li class="mobile-list-item">
+            <a class="main-item-link" href="./portpholio.html">Портфолио</a>
+        </li>
+        <li class="mobile-list-item">
+            <a class="main-item-link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <ul class="mobile-list-info">
+        <li class="mobile-link-phone">
+          <a class="info-link-phone" href="tel:+380961111111"> +38 096 111 11 11</a>
+        </li>
+        <li class="mobile-link-mail">
+          <a class="info-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
+      <ul class="mobile-social-list">
+        <li class="mobile-social-link">
+         <a class="social-mobile" href="#">Instagram</a> 
+                 </li>
+        <li class="mobile-social-link">
+            <a class="social-mobile" href="#">Twitter</a>
+        </li>
+        <li class="mobile-social-link">
+            <a class="social-mobile" href="#">Facebook</a>
+        </li>
+        <li class="mobile-social-link">
+            <a class="social-mobile" href="#">LinkedIn</a>
+        </li>
+      </ul>
     </div>
     </header>
     <main>
-      <!--HERO-->
+      HERO
       <section class="hero-cont">
         <div class="container">
         <h1 class="hero">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
@@ -55,7 +101,7 @@
       </div>
       </section>
           <!--Наши преимущества-->
-      <section class="meta">
+      <!-- <section class="meta">
         <div class="container">
         <h2 class="our-plus">Наши преимущества</h2>
         <div class="advantage-box">
@@ -111,9 +157,9 @@
         </ul>
         </div>
       </div>
-      </section>
+      </section> -->
       <!--Наши занятия-->
-      <section class="benefits">
+      <!-- <section class="benefits">
         <div class="container">
         <h2 class="our-work">Чем мы занимаемся</h2>
         <ul class="our-work-flex">
@@ -146,9 +192,9 @@
           </li>
         </ul>
       </div>
-      </section>
+      </section> -->
       <!--Наша команда-->
-      <section class="comanda">
+      <!-- <section class="comanda">
         <div class="container">
           <h2 class="our-team">Наша команда</h2>
         <ul class="our-team-flex">
@@ -189,6 +235,12 @@
           </li>        
           <li class="img-item">
             <div class="picture">
+              <picture>
+                <source "./images/our-comanda/olha/olha_m@1x 1x" "./images/our-comanda/olha/olha_m@2x 2x">
+                  <source "./images/our-comanda/olha/olha_t@1x 1x" "./images/our-comanda/olha/olha_t@2x 2x">
+                    <source "./images/our-comanda/olha/olha_d@1x 1x" "./images/our-comanda/olha/olha_m@2x 2x">
+                      <source "./images/our-comanda/olha/olha_m@1x_w 1x" "./images/our-comanda/olha/olha_m@2x_w 2x">
+              </picture>
             <img              src="./images/our-comanda/olha.jpg"
               alt="Olha Repina"
               height="260"
@@ -301,9 +353,9 @@
           </li>
         </ul>
       </div>
-      </section>
+      </section> -->
       <!-- Постоянные клиенты -->
-      <section class="clients">
+      <!-- <section class="clients">
         <div class="container">
           <h2 class="clients-text">Постоянные клиенты</h2>
           <ul class="clients-item">
@@ -339,10 +391,10 @@
           </ul>
         </div>
 
-      </section>
+      </section> -->
     </main>
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
       <div class="left-part">
       <a class="logo" href="/"><span class="word-web">Web</span>Studio</a>
@@ -402,7 +454,7 @@
     </form>
   </div>
   </div>
-  </footer>
+  </footer> -->
    <div class="backdrop is-hidden" data-modal>
      <div class="modal">
        <button type="button" class="modal-btn" data-modal-close>
@@ -450,5 +502,6 @@
      </div>
    </div>
    <script src="./js/modal.js"></script>
+   <script src="./js/burger.js"></script>
   </body>
 </html>
