@@ -1,50 +1,76 @@
-// .clients {
-//     padding-top: 94px;
-//     padding-bottom: 94px;
-//     }
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }
     
-//     .clients-text {
-//     font-style: normal;
-//     font-weight: 700;
-//     font-size: 36px;
-//     line-height: 1.167;
-//     text-align: center;
-//     letter-spacing: 0.03em;
+    .clients-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
     
-//     margin-bottom: 50px;
+    margin-bottom: 50px;
         
-//     color: var(--color-title);     
-//     }
+    color: var(--color-title);     
+    }
     
-//     .clients-item {
-//     display: flex;
-//     justify-content: space-between;
-//     }
+    .clients-item {
+    display: flex;
+    justify-content: space-between;
+    }
     
-//     .clients-icons-svg {
-//     fill: #AFB1B8;
-//     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .clients-icons-svg {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    // width: 80px;
+    // height: auto;
+    width: 44px;
+    height: 49px;
+    text-align: center;
+    
+    .clients-logo:hover &,
+    .clients-logo:focus & {
+    fill:var(--color-blue);
+        }  
+    } 
+    
+    .clients-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #AFB1B8;
+    border-radius: 4px; 
+    
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-//     .clients-logo:hover &,
-//     .clients-logo:focus & {
-//     fill:var(--color-blue);
-//         }  
-//     } 
-    
-//     .clients-logo {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-    
-//     width: 170px;
-//     height: 90px;
-//     border:1px solid #AFB1B8;
-//     border-radius: 4px; 
-    
-//     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 210px;
+    height: 90px;
 
-//     &:hover,
-//     &:focus {
-//     border:1px solid #2196F3;
-//     }
-//     }
+    &:hover,
+    &:focus {
+    border:1px solid #2196F3;
+    }
+    }
+
+    @media screen and (min-width:768px){
+        .clients-logo {
+            width: 226px;
+                }
+    }
+
+@media screen and (min-width:1200px) {
+.clients-logo {
+width: 170px;
+}
+}
+    @media only screen and (max-width : 1200px) {
+        .clients {
+            padding-bottom: 45px;
+        }
+        .clients-icons {
+            margin-bottom: 45px;
+        }
+        
+            }

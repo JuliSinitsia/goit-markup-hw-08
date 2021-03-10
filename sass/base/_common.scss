@@ -35,9 +35,11 @@ body {
     .clients-item,
     .seti-icons,
     .join-link-list,
-    .modal-list,
-    .mobile-social-list,
-    .mobile-list-info,
-    .mobile-list {
+    .modal-list {
     list-style-type: none;
     }
+
+a:hover,
+a:focus {
+text-decoration: none;
+}

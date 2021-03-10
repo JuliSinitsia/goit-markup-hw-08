@@ -1,27 +1,15 @@
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 26px;
+    line-height: 1.192;
+    text-decoration:none;
 
-    .logo {
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        color: #000000;
-        font-size: 24px;
-        line-height: 1.167;
-        text-decoration:none;
-
+    .footer & {
+        color: var(--color-white);
         
-
-        @media screen and (min-width:1200px) {
-            font-size: 26px;
-            line-height: 1,192;
-            letter-spacing: 0.03em;
-            
-            color: #2196F3;
-        }
+    }
+    }
     
-        .footer & {
-            color: var(--color-white);
-            }
-        }
-        .word-web {
-            color: var(--color-blue);
-            }
-            
+

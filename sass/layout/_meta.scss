@@ -1,57 +1,99 @@
-// /* Наши преимущества */
-// .meta {
-//     padding: 94px 0;
-//     }
+/* Наши преимущества */
+.meta {
+    padding: 94px 0;
+    }
     
-//     .our-plus {
-//     display: none;
-//     }
+    .our-plus {
+    display: none;
+    }
     
-//     .advantage {
-//     display: inline-block;
-
-//     &:not(:last-child) {
-//         margin-right: 30px;
-//         }
-//     }
+    .advantage {
+    display: inline-block;
+    overflow: hidden;
+    }
        
-//     .advantage-flex {
-//     display: flex;
-//     }
+    .advantage-flex {
+    display: flex;
+    }
     
-//     .advatage-text {
-//     display: inline-block;
-//     width: 270px;
-//     height: 101px;
-//     }
+    .advatage-text {
+    display: inline-block;
+    width: 270px;
+    height: 101px;
+    }
     
-//     .advantage-icons {
-//     background-position: 50% 50%;
+    .advantage-icons {
+    background-position: 50% 50%;
     
-//     padding: 25px 100px;
-//     margin-bottom: 30px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    text-align: center;
     
-//     background: #F5F4FA;
-//     border-radius: 4px;
-//     }
+    background:#F5F4FA;
+    border-radius: 4px;
+    }
     
-//     .advantage-item {
-//      font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.143;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
+    .advantage-item {
+     font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     
-//     margin-bottom: 10px;
+    margin-bottom: 10px;
         
-//     color: var(--color-title);
-//     }
+    color: var(--color-title);
+    }
     
-//     .advantage-details {
-//     font-weight: 400;
-//     font-size: 14px;
-//     line-height: 1.714;
-//     letter-spacing: 0.03em;
+    .advantage-details {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
      
-//     color: var(--main-text-color);
-//     }
+    color: var(--main-text-color);
+    }
+
+    @media only screen and (max-width : 1200px) {
+        .advantage-row {
+            padding-left: 130px;
+            padding-right: 130px;
+        }
+        .advatage-text {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width : 1100px) {
+        .advantage-row {
+            padding-left: 90px;
+            padding-right: 90px;
+        }
+    }
+
+    @media only screen and (max-width : 1050px) {
+        .advantage-row {
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+    }
+
+    @media only screen and (max-width : 900px) {
+        .advantage-row {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    @media only screen and (max-width : 800px) {
+        .advantage-row {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+
+    @media only screen and (max-width : 576px) {
+        .advantage-item {
+            text-align: center;
+        }
+    }
