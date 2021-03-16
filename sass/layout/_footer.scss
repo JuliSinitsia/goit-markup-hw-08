@@ -8,10 +8,7 @@
     .footer-row {
         width: 1200px;
     }
-
-    .left-part{
-    }
-    
+  
     .address-box {
     margin-top: 20px;
     }
@@ -189,8 +186,11 @@
         .footer-form {
             text-align: center;
             width: 100%;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
+        }
+        .footer-btn-form {
+        margin-top: 20px;
         }
     }
 
@@ -199,10 +199,8 @@
         .right-part {
             margin-top: 50px;
         }
-        .footer-form {
-            flex-direction: column;
             .input-footer {
                 margin-bottom: 25px;
             }
-        }
+
     }

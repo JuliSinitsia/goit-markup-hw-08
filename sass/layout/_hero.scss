@@ -6,6 +6,7 @@
     
     //background-color: #C4C4C4;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero/Img-min.jpg),
     url(../images/hero/Img@2x-min.jpg);
     height: 600px;
     background-repeat: no-repeat;
@@ -56,17 +57,18 @@
 }
     
     
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width: 1200px) {
     .hero-cont {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/hero/hero_t@1x-min.jpg);
+        url(../images/hero/hero_t@1x-min.jpg),
+        url(../images/hero/hero_t@2x-min.jpg);
     }
     .hero {
         width: 100%;
     }
 }    
     
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
     .hero {
         font-size: 34px;
         line-height: 1.5;
@@ -78,7 +80,8 @@
 
     .hero-cont {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/hero/hero_p@1x-min.jpg);
+        url(../images/hero/hero_p@1x-min.jpg),
+        url(../images/hero/hero_p@2x-min.jpg);
     }
 }
 

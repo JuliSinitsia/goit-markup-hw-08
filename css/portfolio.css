@@ -67,7 +67,7 @@ html, body {
 }
 
 .container {
-  min-width: 480px;
+  max-width: 480px;
   max-width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
@@ -76,6 +76,8 @@ html, body {
 .header .container {
   display: flex;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .footer .container {
   display: flex;
@@ -86,12 +88,6 @@ html, body {
   padding-bottom: 25px;
   padding-top: 25px;
   border-bottom: 1px solid #ECECEC;
-}
-.header .container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .navigation {
@@ -505,8 +501,12 @@ html, body {
   .footer-form {
     text-align: center;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+  }
+
+  .footer-btn-form {
+    margin-top: 20px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -514,10 +514,7 @@ html, body {
     margin-top: 50px;
   }
 
-  .footer-form {
-    flex-direction: column;
-  }
-  .footer-form .input-footer {
+  .input-footer {
     margin-bottom: 25px;
   }
 }
